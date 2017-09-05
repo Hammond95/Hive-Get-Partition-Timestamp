@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.martindeluca.hivegetpartitiontime</groupId>
+  <artifactId>hivegetpartitiontime</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>hivegetpartitiontime</name>
+  <description>Code to get the timestamp of a partition.</description>
+  <dependencies>
+  	<!--  <dependency>
+  		<groupId>org.apache.hive</groupId>
+  		<artifactId>hive-jdbc</artifactId>
+  		<version>0.13.1</version>
+  	</dependency>-->
+  	<dependency>
+    	<groupId>jdk.tools</groupId>
+    	<artifactId>jdk.tools</artifactId>
+    	<scope>system</scope>
+    	<version>1.7.0</version>
+    	<systemPath>C:\Users\Martin\.m2\tools-1.7.0.jar</systemPath>
+	</dependency>
+  	<dependency>
+    	<groupId>org.apache.hive</groupId>
+    	<artifactId>hive-jdbc</artifactId>
+    	<version>0.13.1-cdh5.3.1</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.thrift</groupId>
+    	<artifactId>libthrift</artifactId>
+    	<version>0.9.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.thrift</groupId>
+    	<artifactId>libfb303</artifactId>
+    	<version>0.9.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.hadoop</groupId>
+    	<artifactId>hadoop-core</artifactId>
+    	<version>2.5.0-mr1-cdh5.3.1</version>
+	</dependency>
+
+	<dependency>
+    	<groupId>org.apache.hadoop</groupId>
+    	<artifactId>hadoop-common</artifactId>
+    	<version>2.5.0-cdh5.3.1</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.hive</groupId>
+    	<artifactId>hive-exec</artifactId>
+    	<version>0.13.1-cdh5.3.1</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.hadoop</groupId>
+    	<artifactId>hadoop-hdfs</artifactId>
+    	<version>2.5.0-cdh5.3.1</version>
+	</dependency>
+</dependencies>
+</project>
